@@ -14,3 +14,18 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## Generating Data Classes
+
+This project uses [Freezed](https://pub.dev/packages/freezed) and [`build_runner`](https://pub.dev/packages/build_runner) to generate the data classes.
+Create or update a data class in the corresponding `model.dart` source code file.
+Make sure the data class is annotated with `@freezed`.
+Then, generate the boilerplate code by using `build_runner`:
+
+```shell
+flutter pub run build_runner build
+```
+
+## License
+
+[MIT](./LICENSE.md).
