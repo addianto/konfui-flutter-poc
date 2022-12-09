@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>834908922601-5qcnnu6e5am1gjvs37f1kqcj0ckigl80.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.834908922601-5qcnnu6e5am1gjvs37f1kqcj0ckigl80</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDOnZQqoD7iFUAilR52hFP7dYdl-V7N1T8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>834908922601</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>to.adian.dev.konfui.poc.konfuiPoc</string>
+	<key>PROJECT_ID</key>
+	<string>konfui</string>
+	<key>STORAGE_BUCKET</key>
+	<string>konfui.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:834908922601:ios:123bedb03ea46ee84a0678</string>
+</dict>
+</plist>

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "834908922601",
+    "project_id": "konfui",
+    "storage_bucket": "konfui.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834908922601:android:90ab0857fc153a8d4a0678",
+        "android_client_info": {
+          "package_name": "to.adian.dev.konfui.poc.konfui_poc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834908922601-lk4biptf7u2e76vm0cv73ohbebp06era.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEglmWc57UWj1affD68c0I4_s0MvPA16o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834908922601-lk4biptf7u2e76vm0cv73ohbebp06era.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "834908922601-5qcnnu6e5am1gjvs37f1kqcj0ckigl80.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "to.adian.dev.konfui.poc.konfuiPoc"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
