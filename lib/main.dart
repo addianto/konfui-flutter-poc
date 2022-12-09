@@ -1,14 +1,19 @@
 import 'dart:developer';
 
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:konfui_poc/publication/api.dart';
 import 'package:konfui_poc/publication/models.dart';
 import 'package:konfui_poc/publication/widgets.dart';
 import 'package:logging/logging.dart';
 
+import 'firebase_options.dart';
+
 final _log = Logger('main');
 
-void main() {
+void main() async {
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+
   Logger.root.level = Level.ALL;
   Logger.root.onRecord.listen((record) {
     log(record.message,
