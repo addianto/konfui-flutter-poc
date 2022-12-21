@@ -8,10 +8,10 @@ import 'models.dart';
 
 final _log = Logger('publication/api');
 
-Future<List<Publication>> getPublications() async {
+// URI example: Uri.https('asia-northeast1-qir-ftui.cloudfunctions.net', '/publications');
+
+Future<List<Publication>> getPublications(Uri uri) async {
   List<Publication> publications = List.empty();
-  final uri =
-      Uri.https('asia-northeast1-qir-ftui.cloudfunctions.net', '/publications');
 
   try {
     final response = await http.get(
